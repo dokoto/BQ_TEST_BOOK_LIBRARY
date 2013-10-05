@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DROPook Library</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_booklist_bookname">Book Name</string>
+    <string name="str_booklist_filedate">Book Date</string>
+    <string name="str_menu_booklist_sortByTitle">Sort by Title</string>
+    <string name="str_menu_booklist_sortByDate">Sort by Date</string>
+
+</resources>

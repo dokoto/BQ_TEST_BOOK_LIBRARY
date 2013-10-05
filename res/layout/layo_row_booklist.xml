@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="16dp" >
+
+    <ImageView
+        android:id="@+id/layo_row_booklist_iv_bookico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/ic_menu_toggle_holo_light" />
+
+    <TextView
+        android:id="@+id/layo_row_booklist_tv_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/layo_row_booklist_iv_bookico"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/layo_row_booklist_iv_bookico"
+        android:text="@string/str_booklist_bookname" />
+
+    <TextView
+        android:id="@+id/layo_row_booklist_tv_filedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/layo_row_booklist_tv_filename"
+        android:textSize="12sp"
+        android:layout_marginRight="22dp"
+        android:text="@string/str_booklist_filedate" />
+    
+</RelativeLayout>
